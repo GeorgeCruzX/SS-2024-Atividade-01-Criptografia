@@ -1,0 +1,75 @@
+/* Estilos Gerais */
+body {
+    background-color: #f8f9fa; /* Cor de fundo cinza claro */
+    color: #212529; /* Cor do texto preta */
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    color: #000; /* Título em preto */
+}
+
+/* Formulário */
+.form-label {
+    color: #000; /* Rótulos do formulário em preto */
+}
+
+.form-control {
+    background-color: #fff; /* Fundo dos campos de entrada branco */
+    border: 1px solid #000; /* Bordas pretas */
+    color: #000; /* Texto em preto */
+}
+
+.form-control:focus {
+    border-color: #333; /* Bordas mais escuras ao focar */
+    box-shadow: none; /* Sem sombra */
+}
+
+/* Botões */
+.btn-primary {
+    background-color: #000; /* Fundo preto */
+    border-color: #000; /* Bordas pretas */
+    color: #fff; /* Texto branco */
+}
+
+.btn-primary:hover {
+    background-color: #333; /* Fundo cinza escuro no hover */
+    border-color: #333; /* Bordas cinza escuro no hover */
+}
+
+/* Tabela */
+table {
+    border: 1px solid #000; /* Bordas pretas para a tabela */
+    width: 100%; /* Tabela ocupa 100% da largura */
+    border-collapse: collapse; /* Bordas colapsadas */
+    margin-top: 20px;
+}
+
+thead {
+    background-color: #e9ecef; /* Fundo do cabeçalho cinza claro */
+}
+
+th, td {
+    border: 1px solid #000; /* Bordas pretas para células */
+    padding: 8px; /* Espaçamento interno das células */
+    text-align: left; /* Alinhamento do texto à esquerda */
+}
+
+th {
+    background-color: #f1f1f1; /* Fundo cinza claro das células do cabeçalho */
+    font-weight: bold; /* Texto em negrito */
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f9f9f9; /* Fundo cinza claro para linhas pares */
+}
+
+/* Mensagens de Erro */
+.alert {
+    border: 1px solid #000; /* Bordas pretas */
+    background-color: #fff; /* Fundo branco */
+    color: #000; /* Texto em preto */
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 5px;
+}

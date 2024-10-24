@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela Inicial</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <style>
+        /* Modo Dark */
+        body {
+            background-color: #121212;
+            color: #e0e0e0;
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            margin-top: 50px;
+            text-align: center;
+        }
+        .title {
+            color: #bb86fc;
+            font-size: 2.5rem;
+            margin-bottom: 30px;
+        }
+        .btn {
+            background-color: #6200ea;
+            color: #ffffff;
+            border: none;
+            padding: 10px 20px;
+            font-size: 1rem;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        .btn:hover {
+            background-color: #3700b3;
+        }
+        .user-data {
+            margin-top: 20px;
+            padding: 15px;
+            background-color: #1e1e1e;
+            border-radius: 5px;
+            color: #cfcfcf;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">Tela Inicial</h1>
+        <button id="logoutButton" class="btn">Sair</button>
+        <div id="userData" class="user-data">Bem-vindo(a), Usuário!</div>
+    </div>
+    <script src="home.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
